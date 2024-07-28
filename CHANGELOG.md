@@ -2,15 +2,15 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.0">
 
-## Unreleased (2024-06-23)
+## 0.2.0 (2024-07-28)
 
 <section class="features">
 
 ### Features
 
--   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - add C implementation for `math/base/special/secd` [(##2406)](#2406)
+-   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - add C implementation for `math/base/special/secd` [(#2406)](https://github.com/stdlib-js/stdlib/pull/2406)
 
 </section>
 
@@ -22,8 +22,10 @@
 
 <details>
 
+-   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 -   [`e26363d`](https://github.com/stdlib-js/stdlib/commit/e26363d5a9df20243c6be186bbf63017517c5839) - **chore:** update package meta data [(#2439)](https://github.com/stdlib-js/stdlib/pull/2439) _(by stdlib-bot, Athan Reines)_
--   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - **feat:** add C implementation for `math/base/special/secd` [(##2406)](#2406) _(by Gunj Joshi)_
+-   [`60ed341`](https://github.com/stdlib-js/stdlib/commit/60ed34151e9e36c332da8fdca5ad187d6f38c3df) - **feat:** add C implementation for `math/base/special/secd` [(#2406)](https://github.com/stdlib-js/stdlib/pull/2406) _(by Gunj Joshi)_
 
 </details>
 
