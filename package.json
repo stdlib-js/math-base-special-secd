@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-secd",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Compute the secant of an angle measured in degrees.",
   "license": "Apache-2.0",
   "author": {
