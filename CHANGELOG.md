@@ -94,11 +94,10 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
 -   Sai Srikar Dumpeti
--   stdlib-bot
 
 </section>
 
