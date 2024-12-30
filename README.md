@@ -205,6 +205,13 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/special/cosd`][@stdlib/math/base/special/cosd]</span><span class="delimiter">: </span><span class="description">compute the cosine of an angle measured in degrees.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/cos`][@stdlib/math/base/special/cos]</span><span class="delimiter">: </span><span class="description">compute the cosine of a number.</span>
+
 </section>
 
 <!-- /.related -->
@@ -284,6 +291,10 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [secant]: https://en.wikipedia.org/wiki/Inverse_trigonometric_functions
 
 <!-- <related-links> -->
+
+[@stdlib/math/base/special/cosd]: https://github.com/stdlib-js/math-base-special-cosd
+
+[@stdlib/math/base/special/cos]: https://github.com/stdlib-js/math-base-special-cos
 
 <!-- </related-links> -->
 
