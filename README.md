@@ -68,19 +68,19 @@ var secd = require( '@stdlib/math-base-special-secd' );
 Computes the [secant][secant] of `x` (in degrees).
 
 ```javascript
-var v = secd( 30 );
+var v = secd( 30.0 );
 // returns ~1.15
 
-v = secd( 45 );
+v = secd( 45.0 );
 // returns ~1.41
 
-v = secd( 60 );
+v = secd( 60.0 );
 // returns ~2.0
 
-v = secd( 90 );
-// returns 16331239353195370
+v = secd( 90.0 );
+// returns Infinity
 
-v = secd( 0 );
+v = secd( 0.0 );
 // returns 1.0
 
 v = secd( NaN );
@@ -242,7 +242,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
