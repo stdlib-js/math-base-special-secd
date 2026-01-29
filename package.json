@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-secd",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Compute the secant of an angle measured in degrees.",
   "license": "Apache-2.0",
   "author": {
@@ -40,9 +40,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-napi-unary": "^0.2.3",
+    "@stdlib/math-base-napi-unary": "^0.2.4",
     "@stdlib/math-base-special-cosd": "^0.2.0",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
@@ -85,82 +85,6 @@
     "angle",
     "degree"
   ],
-  "__stdlib__": {
-    "scaffold": {
-      "$schema": "math/base@v1.0",
-      "base_alias": "secd",
-      "alias": "secd",
-      "pkg_desc": "compute the secant of an angle measured in degrees",
-      "desc": "computes the secant of an angle measured in degrees",
-      "short_desc": "secant",
-      "parameters": [
-        {
-          "name": "x",
-          "desc": "input value (in degrees)",
-          "type": {
-            "javascript": "number",
-            "jsdoc": "number",
-            "c": "double",
-            "dtype": "float64"
-          },
-          "domain": [
-            {
-              "min": "-infinity",
-              "max": "infinity"
-            }
-          ],
-          "rand": {
-            "prng": "random/base/uniform",
-            "parameters": [
-              -180,
-              180
-            ]
-          },
-          "example_values": [
-            0,
-            30,
-            45,
-            60,
-            90,
-            120,
-            135,
-            150,
-            180,
-            -30,
-            -45,
-            -60,
-            -90,
-            -120,
-            -135,
-            -150,
-            -180
-          ]
-        }
-      ],
-      "output_policy": "real_floating_point_and_generic",
-      "returns": {
-        "desc": "secant",
-        "type": {
-          "javascript": "number",
-          "jsdoc": "number",
-          "c": "double",
-          "dtype": "float64"
-        }
-      },
-      "keywords": [
-        "secant",
-        "sine",
-        "inverse",
-        "trig",
-        "trigonometry",
-        "angle",
-        "degree"
-      ],
-      "extra_keywords": [
-        "math.sec"
-      ]
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
