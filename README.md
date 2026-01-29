@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import secd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-secd@deno/mod.js';
+import secd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-secd@v0.2.2-deno/mod.js';
 ```
 
 #### secd( x )
@@ -82,7 +82,7 @@ v = secd( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import secd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-secd@deno/mod.js';
+import secd from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-secd@v0.2.2-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
